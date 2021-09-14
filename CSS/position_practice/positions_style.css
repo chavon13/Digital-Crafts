@@ -1,0 +1,13 @@
+.container {
+    position:absolute;
+}
+
+.words{
+    position:relative;
+    right: 400px;
+    bottom: 315px;
+    background-color: rgb(172, 5, 116);
+    color:white;
+    font-size: 20px;
+    opacity:75%
+}

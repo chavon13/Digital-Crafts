@@ -1,0 +1,18 @@
+.container{
+    position:relative;
+}
+
+.sidebar {
+    position: sticky;
+    top:0px;
+    height:100%;
+    padding-top: 50px;
+}
+
+.content {
+    margin-left: 150px;
+    position:relative;
+    bottom: 200px
+}
+
+
