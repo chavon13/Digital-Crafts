@@ -1,0 +1,17 @@
+.container {
+    height: 500px;
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr; /*longhand for creating rows. used the same way ad grid-template-columns*/
+    row-gap: 50px;
+    column-gap: 50px;
+/* grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+This is the same as the other grid-template-columns but it is longer*/
+
+}
+
+.containerChild {
+    background-color: rgb(248, 42, 76);
+    margin: 2px;
+    color:white
+}
