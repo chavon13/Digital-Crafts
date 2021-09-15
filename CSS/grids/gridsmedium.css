@@ -33,3 +33,18 @@
     grid-row-end: 4;
     padding: 25px;
 }
+
+#header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links {
+    list-style-type: none;
+}
+
+.links > li {
+    float:left;
+    margin: 20px;
+}
