@@ -3,3 +3,21 @@
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+
+.header{
+    grid-column-start:1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end:2;
+}
+
+.sidebar {
+    grid-column-start:3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.content {
+    grid-column-start:1
+}
