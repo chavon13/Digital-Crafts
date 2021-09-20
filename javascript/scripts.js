@@ -6,7 +6,7 @@
  */
 
 /* also a multi-line comment */
-console.log("How are you?")
+/*console.log("How are you?")
 
 var firstName = "Ashley";
 let middleName = "Shavon";
@@ -47,13 +47,13 @@ console.log(sum)
 
 */
 /*Thisis the blueprint for how to trat the variable add */
-function add(x, y) {
+/*function add(x, y) {
     const total = x + y;
 
     return total;
 }
 /*This is the action for the bueprint */
-const sum = add(5 ,7);
+/*const sum = add(5 ,7);
 
 console.log(sum)
 
@@ -62,7 +62,7 @@ but returns a sting of "omg" no matter what.
 The return value should be saved in a variable that can't be changed. 
 */
 
-function lol(x, y, z) {
+/*function lol(x, y, z) {
     const lingo = x + y + z;
     return lingo;
 }
@@ -70,3 +70,56 @@ function lol(x, y, z) {
 const answer = lol( "O", "M", "G")
 
 console.log(answer)
+
+
+const user = {
+    firstName: "Troy"
+}
+
+user.firstName = "Jim"
+*/
+
+/*const age = 11;
+
+if (age >= 21) {
+    console.log("you may enter...")
+} else if (age >= 18) {
+    console.log("not just yet buddy")
+}else {
+    console.log("bye")
+}*/
+//not just yet buddy//
+
+/*const age = 18
+
+switch (age) {
+    case 21:
+        console.log("you may enter...");
+        break;
+    case 18:
+        console.log("not just yet buddy,...");
+        break;
+    default:
+        console.log("bye...");
+        break;
+}
+*/
+
+//FOR LOOP
+//variable/value|condition|iterator
+//step 1: get value
+//step 2: check the condition
+//step 3: if true, execute code block
+//step 4: iterate
+let x = 0
+
+for (x; x < 10; x++) {
+    console.log(x); 
+}
+
+/*while (x < 10 ){
+    console.log(x);
+
+    x++
+}*/
+
