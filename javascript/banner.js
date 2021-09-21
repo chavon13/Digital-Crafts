@@ -1,4 +1,4 @@
-size = 3
+function printBanner(meessage){
+    for
 
-for (i = 0; i < size; i++)
-    console.log("-");
+}
