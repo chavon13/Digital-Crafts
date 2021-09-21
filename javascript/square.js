@@ -16,6 +16,8 @@ printSquare(5)
 
 function printSquare(rows) {
     console.log("*".repeat(rows));
+    for (let i = 1; i < rows - 1; i++) {
+        console.log( "*" + " ".repeat(rows-2) + "*")
+    }
 }
-
 printSquare(5)
