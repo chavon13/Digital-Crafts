@@ -111,7 +111,7 @@ switch (age) {
 //step 2: check the condition
 //step 3: if true, execute code block
 //step 4: iterate
-let x = 0
+/*let x = 0
 
 for (x; x < 10; x++) {
     console.log(x); 
@@ -123,3 +123,33 @@ for (x; x < 10; x++) {
     x++
 }*/
 
+/**
+ * DOM
+ * Document Object Model
+ * 
+ * BOM
+ * Browser Object Model
+ */
+//This is an example of an object
+
+/*let thisIsAnObject = {
+    property: "value"
+}*/
+
+//console.log("BOM accessed through window object:")
+//console.log(window)
+
+//console.log("DOM accesed through document object:")
+//console.log(document)
+
+//console.log(window.location)
+
+//let element = document.getElementsByTagName("h1")
+
+//console.log(element);
+
+let myButton = document.getElementById("button2")
+
+myButton.addEventListener("click", function() {
+    console.log("hello button 2");
+})

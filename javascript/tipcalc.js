@@ -10,7 +10,7 @@ const tip = tipAmount(100, fair)
 console.log(tip)
 
 
-function tipAmount(billAmount, serviceLevel){
+/*function tipAmount(billAmount, serviceLevel){
     let serviceLevels = {
         good: .20,
         fair: .15,
@@ -20,4 +20,4 @@ function tipAmount(billAmount, serviceLevel){
 }
 
 console.log(tipAmount(100, poor))
-
+*/

@@ -1,10 +1,10 @@
-let x = 0
+let x = 1
 
-for (x; x < 10; x++) {
+for (x; x < 11; x++) {
     console.log(x); 
 }
 
-while (x < 10 ){
+while (x < 11){
     console.log(x);
 
     x++

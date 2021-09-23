@@ -1,3 +1,12 @@
 h2{
     color: pink
 }
+
+button{
+    background-color: rgb(92, 62, 230);
+    color: white;
+    width: 300px;
+    height: 150px;
+    font-size: 50px;
+    cursor: pointer;
+}
