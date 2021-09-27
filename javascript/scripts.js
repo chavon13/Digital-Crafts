@@ -148,8 +148,43 @@ for (x; x < 10; x++) {
 
 //console.log(element);
 
-let myButton = document.getElementById("button2")
+/*let myButton = document.getElementById("button2")
 
 myButton.addEventListener("click", function() {
     console.log("hello button 2");
+})*/
+//prints innerwidth to the console when the page is resized.
+/*window.addEventListener("resize", function() {
+    console.log(window.innerWidth);
+})*/
+//This "listens" to the entire document for a click. tells specifically what you are clicking.
+//the "event" in the function parenthesis is where the information is passed to. then it is logged to the console.
+/*document.addEventListener("click", function(event){
+    console.log(event.target);
+})*/
+
+/*const request = new XMLHttpRequest();
+
+request.onreadystatechange = function () {
+    console.log(this);
+};
+
+request.open("GET", "http://placekitten.com/400/400");
+
+const requestButton = document.getElementById("request-button")
+
+requestButton.addEventListener("click", function(){
+    request.send();
+})*/
+
+
+
+
+fetch("http://placekitten.com/400/400").then(function(response){
+    console.log(response)
+})
+
+
+.catch(function(error) {
+    console.log(error);
 })
