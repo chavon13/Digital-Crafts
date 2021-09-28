@@ -8,6 +8,13 @@ request.onreadystatechange = function() {
 request.open("GET", "./ajax.txt");
 request.send();
 
-fetch("./ajax.txt").then((response) => {
+/*fetch("ajax.txt").then(function(response) {
     console.log(response);
-})
+}).catch(function(error) {
+    console.log(error.message)
+})*/
+
+/*fetch("./ajax.txt").then(response => {
+    console.log(response);
+});*/
+
