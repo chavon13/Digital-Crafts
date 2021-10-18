@@ -14,3 +14,4 @@ readline.question("Domain Name ", function(url){
         console.log("IP Address: ", address);
     })
 })
+
